@@ -1,8 +1,8 @@
 *{
-    margin: 0px;
+    margin: 0%;
     padding: 0px;
     box-sizing: border-box;
-    
+    max-height: 150vh;
     
 }
 a{
@@ -109,4 +109,35 @@ p{
 }
 footer{
     background-color: #000;
+   
+    
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+
+
+}
+.finale{
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    font-size: 60px;
+    color: #ffffff;
+}
+.last :hover{
+    text-decoration: underline;
+    color: #574e4b;
+}
+.socials{
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.closing{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
 }
